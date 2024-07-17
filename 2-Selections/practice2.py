@@ -9,7 +9,9 @@ else:
 number = int(input("Enter a number: "))  # Ask the user to enter a number
 if number < 0:  # Check if the number is negative
     number = -number  # Convert the negative number into positive
-print("The absolute value of the number is:", number)  # Display the absolute value of the number
+    print("The absolute value of the number is:", number)
+else:
+    print("The absolute value of the number is:", number)
 
 # Exercise 2.3: Even or Odd
 number = int(input("Enter a number: "))  # Ask the user to enter a number
