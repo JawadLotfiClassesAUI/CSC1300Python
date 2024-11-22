@@ -1,5 +1,5 @@
 # The only input we need is the amount of money the user has
-amount = eval(input("Enter the amount of money: "))
+amount = int(input("Enter the amount of money: "))
 
 b200 = amount // 200
 print(f"{b200} bills of 200 dhs")

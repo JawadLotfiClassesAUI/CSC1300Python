@@ -1,6 +1,6 @@
 # Here we are entering the length and width of the room
-length = eval(input("Enter the length:"))
-width = eval(input("Enter the width:"))
+length = float(input("Enter the length:"))
+width = float(input("Enter the width:"))
 
 # Here we compute the result which is the surface area
 surface = length * width

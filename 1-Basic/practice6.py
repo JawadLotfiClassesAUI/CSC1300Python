@@ -1,6 +1,6 @@
 # We ask the user for 2 numbers
-number1 = eval(input("Enter a number:"))
-number2 = eval(input("Enter another number:"))
+number1 = float(input("Enter a number:"))
+number2 = float(input("Enter another number:"))
 
 # Using the integer division // we can get the quotient
 quotient = number1 // number2
