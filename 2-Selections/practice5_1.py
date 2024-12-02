@@ -1,5 +1,6 @@
 # Exercise 5.1: Feet to Meters Conversion
 choice = input("Choose conversion type (1 for feet to meters, 2 for meters to feet): ")
+
 if choice == "1":
     feet = float(input("Enter the length in feet: "))
     meters = feet * 0.3048

@@ -1,8 +1,12 @@
-# Exercise 5.3: Profit or Loss Calculation
+# Getting income and expenses from the user
 income = float(input("Enter the income: "))
 expenses = float(input("Enter the expenses: "))
-profit = income - expenses
-if profit > 0:
-    print(f"Profit: {profit}")
+
+# Calculating the difference between income and expenses
+difference = income - expenses
+
+# Displaying if it is a profit or a loss
+if difference > 0:
+    print(f"Profit: {difference}")
 else:
-    print(f"Loss: {abs(profit)}")
+    print(f"Loss: {abs(difference)}")
