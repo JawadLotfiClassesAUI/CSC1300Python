@@ -1,10 +1,11 @@
 # The only input we need is the amount of money the user has
 amount = int(input("Enter the amount of money: "))
 
-b200 = amount // 200
+b200 = amount // 200 # With the integer division, we get the number of 200 dhs bills
 print(f"{b200} bills of 200 dhs")
-amount = amount % 200
+amount = amount % 200 # With the modulo operator, we get the remaining amount
 
+# Repeat the process for the other bills and coins
 b100 = amount // 100
 print(f"{b100} bills of 100 dhs")
 amount = amount % 100
