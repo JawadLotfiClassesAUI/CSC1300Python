@@ -17,3 +17,8 @@
 - Indefinite loops using while / while True
 - Definite loops using for in range
 - Nested loops
+
+### Folder 4 - [Lists](4-Lists)
+- Lists
+- Looping through lists
+- Functions and Methods
